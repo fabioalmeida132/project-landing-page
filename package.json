@@ -34,7 +34,10 @@
           "import/no-anonymous-default-export": "off"
         }
       }
-    ]
+    ],
+    "rules": {
+      "no-unused-vars": "off"
+    }
   },
   "browserslist": {
     "production": [
