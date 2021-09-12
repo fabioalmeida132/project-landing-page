@@ -3,9 +3,7 @@ import * as S from "./styles";
 
 export const TextComponent = ({children}) => {
   return (
-    <S.Container>
-      {children}
-    </S.Container>
+    <S.Container  dangerouslySetInnerHTML={{ __html: children }}/>
   );
 };
 
