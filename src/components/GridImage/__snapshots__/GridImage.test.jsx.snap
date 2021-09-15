@@ -55,6 +55,7 @@ exports[`<GridImage /> should render with background 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 @media (max-width:786px) {
@@ -202,6 +203,7 @@ exports[`<GridImage /> should render without background 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 @media (max-width:786px) {
