@@ -29,7 +29,8 @@
     "overrides": [
       {
         "files": [
-          "**/*.stories.*"
+          "**/*.stories.*",
+          "src/components/**/*"
         ],
         "rules": {
           "import/no-anonymous-default-export": "off"
@@ -37,7 +38,8 @@
       }
     ],
     "rules": {
-      "no-unused-vars": "off"
+      "no-unused-vars": "off",
+      "import/no-anonymous-default-export": "off"
     }
   },
   "browserslist": {
