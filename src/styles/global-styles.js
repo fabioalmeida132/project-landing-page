@@ -33,6 +33,11 @@ export const GlobalStyles = createGlobalStyle`
       padding: ${({theme}) => theme.spacings.medium};
     }
 
+    .table {
+      width: 100%;
+      overflow-y: auto;
+    }
+
     a {
      color: ${({theme}) => theme.colors.secondaryColor};
     }

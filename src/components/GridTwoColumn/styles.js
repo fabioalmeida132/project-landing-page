@@ -16,10 +16,6 @@ export const Container = styled.div`
     ${Title}{
       margin-bottom: ${theme.spacings.xlarge};
     }
-
-    > svg {
-      color: white;
-    }
   `}
 `;
 
@@ -36,5 +32,7 @@ export const ImageContainer = styled.div`
 `;
 
 export const Image = styled.img`
-  ${({theme}) => css``}
+  ${({theme}) => css`
+     width: 100%;
+  `}
 `;

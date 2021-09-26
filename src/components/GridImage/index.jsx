@@ -4,9 +4,9 @@ import {Heading} from "../Heading";
 import {TextComponent} from "../TextComponent";
 import {SectionBackground} from "../SectionBackground";
 
-export const GridImage = ({title, description, grid, background = false}) => {
+export const GridImage = ({title, description, grid, background = false, sectionId = ''}) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <S.Container>
         <Heading size="huge" uppercase colorDark={!background} as="h2">{title}</Heading>
         <TextComponent>{description}</TextComponent>
@@ -29,5 +29,6 @@ GridImage.propTypes = {
     altText: P.node.isRequired,
     srcImg: P.node.isRequired,
   })).isRequired,
-  background: P.bool
+  background: P.bool,
+  sectionId: P.string
 };
